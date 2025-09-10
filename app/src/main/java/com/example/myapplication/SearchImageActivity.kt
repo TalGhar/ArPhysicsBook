@@ -22,7 +22,6 @@ class SearchImageActivity : AppCompatActivity() {
     private lateinit var arFragment: ArFragment
     private var configApplied = false
 
-    // Храним активные маркеры
     private val placedMarkers = mutableMapOf<AugmentedImage, AnchorNode>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
